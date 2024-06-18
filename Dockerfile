@@ -22,6 +22,6 @@ RUN a2enconf custom-config
 # Expose port 80
 EXPOSE 80
 
-# Start the Apache service
+# Start the Apache service ..
 CMD ["apache2-foreground"]
 
