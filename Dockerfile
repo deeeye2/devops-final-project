@@ -5,7 +5,7 @@ FROM php:7.4-apache
 COPY . /var/www/html/
 
 # Install any necessary dependencies, if any
-# RUN docker-php-ext-install mysqli ...
+# RUN docker-php-ext-install mysqli ....
 
 # Expose port 80
 EXPOSE 80
